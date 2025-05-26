@@ -98,7 +98,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 TextButton(
                   onPressed: () async {
                     final refreshToken =
-                        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RAY29kZWZhY3RvcnkuYWkiLCJzdWIiOiJmNTViMzJkMi00ZDY4LTRjMWUtYTNjYS1kYTlkN2QwZDkyZTUiLCJ0eXBlIjoicmVmcmVzaCIsImlhdCI6MTc0ODIzOTkxMywiZXhwIjoxNzQ4MzI2MzEzfQ.aIg_0mpvr4k4DTgIrTsJS5FGz_b6Cdkfsc6X-6L2Yws';
+                        'test';
                     final resp = await dio.post(
                       'http://$ip/auth/token',
                       options: Options(
